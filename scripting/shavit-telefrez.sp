@@ -29,10 +29,10 @@
 public Plugin myinfo =
 {
 	name        = "[shavit] Teleport Freeze",
-	author      = "TeasOfficial",
+	author      = "NekoGan, TeasOfficial",
 	description = "Pause movement & timer on press-hold teleport button",
 	version     = PLUGIN_VERSION,
-	url         = ""
+	url         = "https://github.com/TeasOfficial/shavit-telefrez"
 };
 
 chatstrings_t gS_ChatStrings;
