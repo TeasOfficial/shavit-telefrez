@@ -86,7 +86,7 @@ public Action Command_TeleportPress(int client, int args)
 			client, gS_ChatStrings.sVariable, gS_ChatStrings.sText);
 		return Plugin_Handled;
 	}
-
+	// allow teleport when timer disabled
 	// if (Shavit_GetTimerStatus(client) != Timer_Running)
 	// {
 	// 	Shavit_PrintToChat(client, "%T", "CommandNoPause",
