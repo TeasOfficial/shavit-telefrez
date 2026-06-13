@@ -87,12 +87,12 @@ public Action Command_TeleportPress(int client, int args)
 		return Plugin_Handled;
 	}
 
-	if (Shavit_GetTimerStatus(client) != Timer_Running)
-	{
-		Shavit_PrintToChat(client, "%T", "CommandNoPause",
-			client, gS_ChatStrings.sVariable, gS_ChatStrings.sText);
-		return Plugin_Handled;
-	}
+	// if (Shavit_GetTimerStatus(client) != Timer_Running)
+	// {
+	// 	Shavit_PrintToChat(client, "%T", "CommandNoPause",
+	// 		client, gS_ChatStrings.sVariable, gS_ChatStrings.sText);
+	// 	return Plugin_Handled;
+	// }
 
 	int cpIndex = Shavit_GetCurrentCheckpoint(client);
 	if (cpIndex < 1)
